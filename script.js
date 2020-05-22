@@ -35,7 +35,7 @@ function demarrerLaMontre() {
 	// Rotation des aiguilles à partir les degrées calculées :
 
 	aiguille_heur.style.transform = `rotate(${hours_rot + 360 * hours_turns}deg)`;
-    aiguille_min.style.transform = `rotate(${minutes_rot + 360 * minutes_turns}deg)`;
+  aiguille_min.style.transform = `rotate(${minutes_rot + 360 * minutes_turns}deg)`;
 	aiguille_sec.style.transform = `rotate(${seconds_rot + 360 * seconds_turns}deg)`;
 }
 

@@ -1,7 +1,7 @@
 
 /* Layout */
 body {
-    background-color: gray;
+    background: url(./you.png);
 }
 .main {
     display: flex;
@@ -15,6 +15,7 @@ body {
 .clockbox,
 #clock {
     width: 100%;
+    
 }
 
 /* Clock styles */
@@ -23,6 +24,7 @@ body {
     stroke: #000;
     stroke-width: 9;
     stroke-miterlimit: 10;
+    
 }
 
 .mid-circle {
@@ -87,14 +89,14 @@ body {
   }
 
   #countDownTimer > div {
-    padding: 10px;
+    padding: 5px;
     border-radius: 3px;
     background: #e1e1e1;
     display: inline-block;
   }
 
   #countDownTimer div > span {
-    background: black;
+    background: url(./you.png);
     display: inline-block;
     padding: 20px;
     border-radius: 5px;
